@@ -1,5 +1,6 @@
 # webdepersonas
 Actividad corresondiente a la semana 13 de Fase 2 (JAP).
+JSON de personas creado: https://raw.githubusercontent.com/tahirivazquez/jsonpeople/main/db.json
 
 **Objetivo:** En esta actividad, les propongo crear una web de personas (generadas de manera random), que diga donde viven y un número de teléfono. La web permitirá alternar entre el "Modo Día" y el "Modo Noche" utilizando JavaScript y guardarán la preferencia en localStorage.
 
