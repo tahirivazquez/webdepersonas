@@ -1,1 +1,34 @@
+.persona {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
 
+body[data-bs-theme="dark"] .persona {
+    border: 1px solid #555;
+    color: #fff;
+}
+
+.persona:hover {
+    border: 1px solid #007bff;
+    color: #007bff;
+}
+
+body[data-bs-theme="dark"] .persona:hover {
+    border: 1px solid #007bff;
+    color: #007bff;
+}
+
+#searchInput {
+    width: 300px;
+    margin: 10px;
+}
+
+#dark-mode {
+    margin: 5px;
+}
+
+#botonBuscar {
+    margin: 5px;
+}
