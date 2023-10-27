@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     const personaDiv = document.createElement("div");
                     personaDiv.className = "persona p-3";
                     personaDiv.innerHTML = `<p><strong>Nombre:</strong> ${persona.name}</p>
-                                           <p><strong>Dirección:</strong> ${persona.address}</p>
+                                           <p><strong>Ciudad:</strong> ${persona.address}</p>
                                            <p><strong>Teléfono:</strong> ${persona.phone}</p>`;
                     personaColumna.appendChild(personaDiv);
                     listaPersonas.appendChild(personaColumna);
